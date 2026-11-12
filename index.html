@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Jeopardy</h1>
+        <h3>How To Play: Choose a tile and answer the question. Click the the button to start the game</h3>
+        <form action="game.html">
+            <dropdown>
+                <label for="teams" >Choose Number of Teams:</label>
+                <select name="teams" id="teams">
+                    <option value="1">1 Team</option>
+                    <option value="2">2 Teams</option>
+                    <option value="3">3 Teams</option>
+                    <option value="4">4 Teams</option>
+                </select>
+            </dropdown>
+            <button id="start-button" type="submit">Start Game</button>
+        </form>
+    </main>
+</body>
+</html>

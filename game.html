@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head> 
+<body>
+    <p id="game-message" class="game-message" aria-live="polite">Choose a tile to set the score value.</p>
+    <div class="jeopardy">
+        <div class="category">Brainrot</div>
+        <div class="category">Memes</div>
+        <div class="category">Games</div>
+        <div class="category">Movies</div>
+        <div class="category">Songs</div>
+
+        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
+        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
+        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
+        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
+        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
+
+        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
+        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
+        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
+        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
+        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
+
+        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
+        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
+        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
+        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
+        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
+
+        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
+        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
+        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
+        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
+        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
+
+        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
+        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
+        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
+        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
+        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
+    </div>
+
+    <section class="teams" id="teams" aria-label="Team scores"></section>
+</body>
+</html>
