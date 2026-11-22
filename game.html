@@ -15,38 +15,48 @@
         <div class="category">Games</div>
         <div class="category">Movies</div>
         <div class="category">Songs</div>
+        
+        <button class="cell" type="button" data-category="Brainrot" data-value="100">100</button>
+        <button class="cell" type="button" data-category="Memes" data-value="100">100</button>
+        <button class="cell" type="button" data-category="Games" data-value="100">100</button>
+        <button class="cell" type="button" data-category="Movies" data-value="100">100</button>
+        <button class="cell" type="button" data-category="Songs" data-value="100">100</button>
 
-        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
-        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
-        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
-        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
-        <button class="cell" type="button" data-value="100" aria-pressed="false">100</button>
+        <button class="cell" type="button" data-category="Brainrot" data-value="200">200</button>
+        <button class="cell" type="button" data-category="Memes" data-value="200">200</button>
+        <button class="cell" type="button" data-category="Games" data-value="200">200</button>
+        <button class="cell" type="button" data-category="Movies" data-value="200">200</button>
+        <button class="cell" type="button" data-category="Songs" data-value="200">200</button>
 
-        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
-        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
-        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
-        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
-        <button class="cell" type="button" data-value="200" aria-pressed="false">200</button>
+        <button class="cell" type="button" data-category="Brainrot" data-value="300">300</button>
+        <button class="cell" type="button" data-category="Memes" data-value="300">300</button>
+        <button class="cell" type="button" data-category="Games" data-value="300">300</button>
+        <button class="cell" type="button" data-category="Movies" data-value="300">300</button>
+        <button class="cell" type="button" data-category="Songs" data-value="300">300</button>
 
-        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
-        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
-        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
-        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
-        <button class="cell" type="button" data-value="300" aria-pressed="false">300</button>
+        <button class="cell" type="button" data-category="Brainrot" data-value="400">400</button>
+        <button class="cell" type="button" data-category="Memes" data-value="400">400</button>
+        <button class="cell" type="button" data-category="Games" data-value="400">400</button>
+        <button class="cell" type="button" data-category="Movies" data-value="400">400</button>
+        <button class="cell" type="button" data-category="Songs" data-value="400">400</button>
 
-        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
-        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
-        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
-        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
-        <button class="cell" type="button" data-value="400" aria-pressed="false">400</button>
-
-        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
-        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
-        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
-        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
-        <button class="cell" type="button" data-value="500" aria-pressed="false">500</button>
+        <button class="cell" type="button" data-category="Brainrot" data-value="500">500</button>
+        <button class="cell" type="button" data-category="Memes" data-value="500" >500</button>
+        <button class="cell" type="button" data-category="Games" data-value="500" >500</button>
+        <button class="cell" type="button" data-category="Movies" data-value="500">500</button>
+        <button class="cell" type="button" data-category="Songs" data-value="500" >500</button>
     </div>
-
+    <dialog id="question-dialog" aria-labelledby="question-category" aria-describedby="question-text">
+        <div class="question-controls">
+            <button type="button" id="continue-button" aria-label="Continue">Continue (ESC)</button>
+            <h2 id="question-category"></h2>
+            <button type="button" id="reveal-button" aria-label="Show answer (Spacebar)">Reveal Answer (Spacebar)</button>
+        </div>
+        <p id="question-text"></p>
+        <img id="question-image" alt="" style="display: none;">
+        <p id="question-answer" style="display: none;"></p>
+        
+    </dialog>
     <section class="teams" id="teams" aria-label="Team scores"></section>
 </body>
 </html>
