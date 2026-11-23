@@ -92,12 +92,12 @@ const questions = {
             answer: "Titanic",
             image: "img/titanic.png"
         },
-        "200": {
+        "500": {
             question: "Hvad hedder denne film?",
             answer: "The Hobbit: The Desolation of Smaug",
             image: "img/hobbit.png"
         },
-        "300": {
+        "200": {
             question: "Hvad hedder denne film?",
             answer: "Pulp Fiction",
             image: "img/pulp-fiction.png"
@@ -107,7 +107,7 @@ const questions = {
             answer: "Forrest Gump",
             image: "img/forrest-gump.png"
         },
-        "500": {
+        "300": {
             question: "Hvad hedder denne film?",
             answer: "The Hunchback of Notre Dame eller Klokkerne fra Notre Dame",
             image: "img/hunch-back.png"
